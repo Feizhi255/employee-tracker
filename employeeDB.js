@@ -1,14 +1,15 @@
 const mysql = require("mysql");
 const inquirer = require("inquirer");
-// const dotenv = require('dotenv').config();
+const dotenv = require('dotenv').config();
 const figlet = require('figlet');
 const cTable = require('console.table');
+const password = require('./password');
 
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "255Jkirby@",
+  password: password,
   database: "employee_db"
 });
 
