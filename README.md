@@ -1,6 +1,7 @@
 # Employee Tracker
 
 ## Description 
+Keep track of employee info on job title, salary, department_id, and salary.
 
 ### Example gif
 
@@ -21,11 +22,11 @@
         npm i
         
 ## Usage
-  This command-line application dynamically generates a Team Profile from a user's input. The application will be invoked with the following command:
+  This command-line application helps keep track of employees postion in the company and there other info. The application will be invoked with the following command:
 
-        node app.js
+        node employeeDB.js
 
-  The user will be prompted with teammate information pertaining to there ID, Email, Office Number/Github, and or school.
+  The user will be prompted with teammate information here u can add update and view makes changes where needed.
 ## Licence
 ![APM](https://img.shields.io/apm/l/npm)
 ## Contributors
