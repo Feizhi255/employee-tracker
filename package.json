@@ -1,17 +1,28 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "track employee's data",
-  "main": "app.js",
+  "description": "",
+  "main": "employeeDB.js",
+  "dependencies": {
+    "connection": "^1.3.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jordan Kirby",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feizhi255/employee-tracker.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "console.table": "^0.10.0",
-    "dotenv": "^8.2.0",
-    "inquirer": "^7.3.3",
-    "mysql": "^2.18.1"
-  }
+  "bugs": {
+    "url": "https://github.com/Feizhi255/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/Feizhi255/employee-tracker#readme"
 }
